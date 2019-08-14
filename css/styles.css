@@ -1,0 +1,254 @@
+/*STYLES FOR JQUERY SYNTAX(syntax.html)*/
+
+body{
+    text-align: center;
+    margin:10px;
+}
+
+#h1_syntax{
+    color:aqua;
+    font-family:courier;
+    font-size:50;
+}
+
+#div1_syntax,#div2_syntax{
+    border:double 10px lime;
+    margin:10px auto auto;
+    height:200px;
+    width:200px;
+    background:black;
+    color:white;
+    text-align:center;
+    box-sizing:border-box;
+    padding:40px;
+}
+
+#div1_syntax{
+    border-bottom-left-radius:100%;
+    border-bottom-right-radius:100%;
+    border-top-right-radius:100%;
+    border-radius:0px 100px 100px 100px;
+}
+
+#button_syntax{
+    height:60px;
+    width:200px;
+    margin:30px;
+    color:purple;
+    text-transform:uppercase;
+    text-decoration: underline;
+    background:linear-gradient(yellow,orange);
+}
+
+/*STYLES FOR JQUERY EVENTS(events.html)*/
+
+#h1_events{
+    color:rebeccapurple;
+    font-size:50px;
+}
+#div_events{
+    margin:10px auto;
+    height:120px;
+    width:200px;
+    padding:100px 0;
+    box-sizing:border-box;
+    background:linear-gradient(blue,black);
+    color:white;
+    
+}
+
+/*STYLES FOR CHAINING LECTURE(chaining.html)*/
+
+#div_chaining{
+    background:black;
+    color:aqua;
+    height:50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding:10px;
+    font-size:20px;
+    text-decoration: underline;
+    text-transform:capitalize;
+    font-family:georgia;
+    display:none;
+    
+}
+
+/*STYLES FOR HIDE AND SHOW LECTURE(hide-show.html)*/
+
+#div_hide{
+    background:#FF0080;
+    height:200px;
+    width:200px;
+    margin:auto;
+    line-height:6;
+    font-size:30px;
+    
+}
+
+#button_hide{
+    height:70px;
+    width:200px;
+    background:radial-gradient(#11FFFF,#00C6C6);
+}
+
+#p_hide{
+font-size:22px;
+text-transform:capitalize;
+}
+
+/*STYLES FOR ANIMATIONS LECTURE(animations.html)*/
+.button_class{
+    position:relative;
+    width:50px;
+    height:40px;
+    color:ghostwhite;
+    font-size:20px;
+    background: black;
+    border-radius:10px;
+    top:4em;
+    z-index:4;
+    margin:auto;
+}
+
+#div_main{
+    height:180px;
+    width:180px;
+    position: relative;
+    top:10em;
+    border-radius:100%;
+    background:black;
+    border:double 15px lime;
+    margin:auto;
+    
+}
+
+#button_left{
+    top:66px;
+}
+#button_right{
+    right:-55px;
+    top:25px;
+}
+#button_top{
+    top:10px;
+    margin-top:3px;
+}
+#button_bottom{
+    left:-50px;
+    top:120px;
+}
+
+#div_move{
+    height:180px;
+    border:solid 1px black;
+    position:relative;
+    z-index:0;
+    width:180px;
+    margin:auto;
+    background:#254;
+    font-size:20px;
+    text-align: center;
+    box-sizing: border-box;
+    line-height:9;
+    color:aqua;
+}
+
+/*CSS MODIFICATION LECTURES(cssmodification.html)*/
+
+.class_css{
+    border-radius:100%;
+    margin:20px auto;
+}
+#div_css{
+    height: 200px;
+    width:200px;
+    border:solid 1px red;
+    background:radial-gradient(#0F2438,#252632,#4F6673);
+}
+
+
+
+#div_example{
+    background: url('../images/car1.jpg');
+    background-size: cover;
+    height:100%;
+    width:100%;
+}
+
+/*CAR RACING LECTURE(race.html)*/
+#h1_race{
+    font-family:French Script MT;
+    letter-spacing:5;
+    font-weight: bolder;
+    font-size:50px;
+    margin:0;
+    background:radial-gradient(yellow,orange,red);
+    border:solid 4px red;
+}
+body{
+    background:radial-gradient(#555,#000);
+}
+
+#button_race1,#button_race2{
+    height:40px;
+    width:80px;
+    font-weight:bolder;
+    color:blueviolet;
+    background:#95D4D7;
+    margin:10px 10px 10px 0;
+}
+
+#div_race{
+    background:url('../images/road..png');
+    height:330px;
+    border-right:dashed 10px lime;
+    position:relative;
+}
+
+#div_result{
+    margin:5px;
+    border:solid 4px white;
+    height:180px;
+}
+
+#p_race{
+    font-size:20px;
+    font-family:georgia;
+    color:yellowgreen;
+}
+.class_result{
+    position:relative;
+    float:left;
+    height:120px;
+    width:50%;
+    font-family:courier;
+    color: turquoise;
+    
+}
+span{
+    color:white;
+    display:block;
+    z-index:10;
+}
+
+.class_race{
+    height:200px;
+    width:200px;
+    position:relative;
+    z-index:10;
+}
+
+#div_race1{
+    background:url('../images/car%201.png');
+    background-repeat:no-repeat;
+    top:20px;
+    position:relative;
+}
+
+#div_race2{
+    background: url('../images/car2.png');
+    background-repeat:no-repeat;
+    top:10px;
+    position:relative;
+}
